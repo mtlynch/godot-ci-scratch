@@ -10,7 +10,7 @@ jobs:
           command: mkdir dist
       - run:
           name: Export HTML5 version
-          command: godot --export HTML5 pong/project.godot "dist/index.html"
+          command: godot --export HTML5 project.godot "dist/index.html"
 workflows:
   version: 2
   test-deploy:
